@@ -76,6 +76,7 @@
   .form-group {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: space-evenly;
     gap: 2rem;
     width: 40vw;
@@ -84,7 +85,8 @@
   input[type="email"] {
     padding: 1rem 2rem;
     border: none;
-    
+    max-width: 80%;
+      width: 100%;
     outline: none;
       font-family: "Poppins", sans-serif;
       font-size: 1.3rem;
