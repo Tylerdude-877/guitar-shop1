@@ -1,0 +1,394 @@
+*,::before,::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 10px;
+  }
+  
+  body {
+    background-color: rgb(238, 239, 255);
+    font-family: 'Poppins', sans-serif;
+  
+  }
+  
+  header {
+      position: fixed;
+      top: 0px;
+      min-height: 75px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 0px 20px;
+      background-color: rgb(255, 255, 255);
+      box-shadow: 1px 1px 4px
+  }
+  
+  .header-img-box{
+    margin-top:-.5rem;
+    width: 60vw;
+  }
+
+  nav {
+    margin-right: 5rem;
+  }
+  
+  nav {
+    width: 40vw;
+  }
+  
+  nav ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  nav ul li {
+    list-style: none;
+    font-size: 1.5rem;
+    
+  }
+  
+  nav ul li a{
+    text-decoration: none;
+    color: #100;
+  }
+  
+  main {
+    margin-top: 9rem;
+  }
+  
+  .sec-1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 27rem;
+    margin-bottom: 20rem;
+    align-items: center;
+    
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: dark;
+      font-family: "Poppins", sans-serif;
+    
+    margin-bottom: 2rem;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2rem;
+    width: 40vw;
+  }
+  
+  input[type="email"] {
+    padding: 1rem 2rem;
+    border: none;
+    max-width: 80%;
+    width: 100%;
+    outline: none;
+      font-family: "Poppins", sans-serif;
+      font-size: 1.3rem;
+      border-radius: 2rem;
+      box-shadow: 1px 1px 9px gray;
+  }
+  
+  input[value="Get started"] {
+    padding: 1rem;
+    border: none;
+    outline: none;
+      font-family: "Poppins", sans-serif;
+      font-size: 1.3rem;
+      border-radius: 2rem;
+    background-color: rgb(245, 245, 245);
+    margin: 0 auto;
+    cursor: pointer;
+    box-shadow: 1px 1px 9px gray;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .sec-2 {
+    max-width: 100%;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 5rem;
+  }
+  
+  .features {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 5rem;
+  
+  }
+  
+  span{
+    font-size: 2rem;
+    width: 100%;
+  
+  }
+  
+  svg {
+    width: 5rem;
+    height: 5rem;
+    justify-content:center;
+    align-items: center;
+    color: orangered;
+  
+  }
+  
+  .f-description1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .f-description2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .f-description3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .i-frame {
+    margin-bottom: 10rem;
+    vertical-align: center;
+    text-align: center;
+  }
+  
+  #video {
+    width:760px;
+    height:360px;
+  }
+  
+  .pricing {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 10rem;
+    justify-content: space-around;
+  }
+
+  .pricing-card{
+    width: 30rem;
+    height: 53rem;
+    background-color: rgb(219, 192, 234);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 9px rgb(180, 173, 173);
+  }
+
+  .card1-img{
+    width: 100%;
+    
+  }
+
+  .pricing img {
+    width: 270px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 5px rgb(58, 48, 48);
+  }
+
+  .pricing h3 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    padding: 1rem 0;
+  }
+
+  .pricing li {
+    list-style: none;
+    font-size: 1.3rem;
+  }
+
+  .card1-bylink{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .pricing a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(2, 0, 0);
+    padding: .5rem 2rem;
+    background-color: rgb(219, 192, 234);
+    box-shadow: 1px 1px 4px rgb(105, 89, 89);
+    border-radius: 1rem;
+    
+  }
+
+
+  #footer {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: rgb(245, 245, 245);
+    }
+  
+  #footer ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 2.3rem;
+  }
+  
+  #footer ul li {
+    text-align: right;
+    list-style: none;
+    font-size: 1.3rem;
+    margin-right: 1rem;
+  }
+  
+  #footer div {
+    margin-left:7rem;
+  }
+  #footer div p{
+    margin-right: 1rem;
+    text-align: right;
+    font-size: 1.1rem;
+  }
+  
+  #footer ul li a{
+    text-decoration: none;
+    color: black;
+  }
+
+
+
+
+
+
+
+
+
+
+  
+  @media (max-width: 370px) {
+    #header-img{
+    margin-top:-.5rem;
+    width: 260;
+  }
+  
+  nav ul{
+    flex-direction: column;
+  }
+  
+  h1{
+    text-align: center;
+    vertical-align: center;
+    font-size: 2.5rem;
+  }
+  
+  .form-group{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+  }
+  
+  
+  input::placeholder {
+    font-size: 1.3rem;
+  }
+  
+  .features {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 200px;
+    justify-content: center;
+  }
+  
+  #video {
+    width: 350px;
+    height: 200px;
+  }
+  
+  #footer {
+    margin-bottom: 2rem;
+  }
+  
+  }
+  @media (max-width: 500px) {
+    #header-img{
+    margin-top:-.5rem;
+    width: 260;
+  }
+  
+  nav ul{
+    flex-direction: column;
+  }
+  
+  h1{
+    text-align: center;
+    vertical-align: center;
+    font-size: 2.5rem;
+  }
+  
+  .form-group{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+  }
+  
+  
+  input::placeholder {
+    font-size: 1.3rem;
+  }
+  
+  .features {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 200px;
+    justify-content: center;
+  }
+
+  nav{
+    margin-right: 0rem;
+  }
+  
+  #video {
+    width: 350px;
+    height: 200px;
+  }
+  
+  #footer {
+    margin-bottom: 2rem;
+  }
+  
+  }
+
+
+  @media (max-width: 750px) {
+    #header-img{
+    margin-top:-.5rem;
+    width: 220px;
+  }
+  #video {
+    width: 350px;
+    height: 200px;
+  }
+
+  .header-img-box{
+    
+    margin-top:-.5rem;
+    width: 55vw;
+  }
+
+  nav {
+    margin-right: 1rem;
+  }
+}
