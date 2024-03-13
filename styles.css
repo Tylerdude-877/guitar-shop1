@@ -172,14 +172,13 @@
   }
 
   .sec-3{
-    height: 60vh;
+    height: 40vh;
   }
   
   .pricing {
     display: flex;
     gap: 2rem;
     justify-content: space-around;
-    height: 70vh;
     align-items: center;
 
   }
@@ -240,7 +239,7 @@
     align-items: center;
     justify-content: flex-end;
     background-color: rgb(245, 245, 245);
-    margin-top: 15rem;
+    margin-top: 10rem;
     height: 10vh;
   }
 
@@ -285,14 +284,11 @@
     width: 550px;
     height: 300px;
   }
-      
   .pricing{
     flex-direction: column;
-    height: 200vh;
   }
 
   .header-img-box{
-    
     margin-top:-.5rem;
     width: 55vw;
   }
@@ -333,7 +329,6 @@ input::placeholder {
 
 .pricing{
   flex-direction: column;
-  height: 200vh;
 }
 
 .features {
@@ -350,10 +345,6 @@ nav{
 #video {
   width: 350px;
   height: 200px;
-}
-
-#footer {
-  margin-bottom: 2rem;
 }
 
 }
@@ -403,11 +394,6 @@ nav{
 
   .pricing{
     flex-direction: column;
-    height: 200vh;
-  }
-  
-  #footer {
-    margin-bottom: 2rem;
   }
   
   }
