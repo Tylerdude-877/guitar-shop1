@@ -172,7 +172,7 @@
   }
 
   .sec-3{
-    height: 70vh;
+    height: 50vh;
   }
   
   .pricing {
@@ -285,11 +285,7 @@
     width: 550px;
     height: 300px;
   }
-
-  .sec-3{
-    height: 60vh;
-  }
-
+      
   .pricing{
     flex-direction: column;
     height: 200vh;
@@ -333,10 +329,6 @@ h1{
 
 input::placeholder {
   font-size: 1.3rem;
-}
-
-.sec-3{
-  height: 50vh;
 }
 
 .pricing{
@@ -407,9 +399,6 @@ nav{
   #video {
     width: 350px;
     height: 200px;
-  }
-  .sec-3{
-    height: 50vh;
   }
 
   .pricing{
