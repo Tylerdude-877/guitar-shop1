@@ -118,7 +118,6 @@
     width: 50%;
     margin: auto;
     margin-bottom: 5rem;
-    height: 55vh;
   }
   
   .features {
@@ -161,6 +160,7 @@
   
   
   .i-frame {
+    margin-top: 10rem;
     margin-bottom: 10rem;
     vertical-align: center;
     text-align: center;
